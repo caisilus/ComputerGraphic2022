@@ -1,7 +1,7 @@
 from .line_intersector import draw_intersections_with_line
 from src.figure import Figure
 from src.controller_mode import ControllerMode
-from functions import *
+from Lab4.functions import *
 
 class LineMode(ControllerMode):
     def __init__(self, canvas, color = (0,0,0), line_type="bresenchem"):
